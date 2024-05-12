@@ -25,7 +25,7 @@ const ContactCard = () => {
                 </div>
 
                 <div className="flex-grow">
-                    <h2 className="text-2xl font-bold mb-2">{contact.name?.first} {contact.name?.last}</h2>
+                    <h2 className="text-2xl font-bold mb-2">{contact?.name?.first} {contact?.name?.last}</h2>
                     <p className="text-gray-600 mb-2">Gender: {contact?.gender} </p>
                     <p className="text-gray-600">Phone Number: {contact?.phone} </p>
                 </div>
